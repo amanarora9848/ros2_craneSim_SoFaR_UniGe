@@ -1,5 +1,5 @@
 # ROS2 Crane-Simulator
-This is the second assignment for the "Software Architecture for Robotics" course at the University of Genoa. The project consists of a 2D simulation of a crane, performing pick and place operations. Implementation is done in ROS2/Python with the help of the Arcade library. The simulation node is already developed and provided by [@SimoneMacci0](https://github.com/SimoneMacci0). The controller nodes and the robot logic node have been implemented as part of the assignment deliverables.
+This is the second assignment for the "Software Architecture for Robotics" course at the University of Genoa, Italy. The project consists of a 2D simulation of a crane, performing pick and place operations. Implementation is done in ROS2/Python with the help of the Arcade library. The simulation node is already developed and provided by [@SimoneMacci0](https://github.com/SimoneMacci0) in this [repo](https://github.com/SimoneMacci0/sofar-crane-simulator). The controller nodes and the robot logic node have been implemented as part of the assignment deliverables.
 
 ## Dependencies
 
@@ -73,5 +73,6 @@ Each pick-and-place action begins with the PICK stage (thus you will need to pub
 
 As of ROS2 Humble, there is a weird bug which prevents the application from being launched correctly unless the ```import arcade``` statement is placed as first. Whatever changes you do in the code, make sure to always keep that import as first line of code.
 
+---
 
-Thanks to [@SimoneMacci0]((https://github.com/SimoneMacci0) for developing the base architecture of the simulation. Refer to his repository for further details on the simulation node: [sofar-crane-simulator](https://github.com/SimoneMacci0/sofar-crane-simulator)
+Thanks to [@SimoneMacci0](https://github.com/SimoneMacci0) for developing the base architecture of the simulation. Refer to his repository for further details on the simulation node: [sofar-crane-simulator](https://github.com/SimoneMacci0/sofar-crane-simulator)
