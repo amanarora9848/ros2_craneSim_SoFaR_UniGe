@@ -1,5 +1,5 @@
 # ROS2 Crane-Simulator
-This is the second assignment for the "Software Architecture for Robotics" course at the University of Genoa, Italy. The project consists of a 2D simulation of a crane, performing pick and place operations. Implementation is done in ROS2/Python with the help of the Arcade library. The simulation node is already developed and provided by [@SimoneMacci0](https://github.com/SimoneMacci0) in this [repo](https://github.com/SimoneMacci0/sofar-crane-simulator). The controller nodes and the robot logic node have been implemented as part of the assignment deliverables.
+This is the second assignment for the "Software Architecture for Robotics" course at the University of Genoa, Italy. The project consists of a 2D simulation of a crane, performing pick and place operations. Implementation is done in ROS2/Python with the help of the Arcade library. The simulation node is already developed and provided by [@SimoneMacci0](https://github.com/SimoneMacci0) in this [repo](https://github.com/SimoneMacci0/sofar-crane-simulator). The controller nodes and the robot logic node have been implemented as part of the assignment deliverables, within a time constraint of 2 hours as per requirements of the assignment.
 
 ## Dependencies
 
